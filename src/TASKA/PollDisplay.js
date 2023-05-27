@@ -1,5 +1,5 @@
 import React,{ useState } from "react"
-
+import UserParticipation from "./UserParticipation"
 
 function PollDisplay(props) {
     const [countjs, setCountjs] = useState(0)
@@ -14,7 +14,7 @@ function PollDisplay(props) {
          {props.Answer}
          <br/>
 
-         │       ├── JavaScript: {countjs} votes
+         │       ├── JavaScript: {countjs} votes 
          <br/>
 
          │       ├── Python: {countp} votes
