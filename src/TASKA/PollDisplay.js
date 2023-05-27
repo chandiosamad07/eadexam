@@ -1,7 +1,7 @@
 import React,{ useState } from "react"
 import UserParticipation from "./UserParticipation"
 import AnotherUserParticipation from "./AnotherUserParticipation"
-
+import {Link} from 'react-router-dom'
 function PollDisplay(props) {
     const [countjs, setCountjs] = useState(0)
     const [countp, setCountp] = useState(0)
@@ -24,7 +24,8 @@ function PollDisplay(props) {
          <br/>
          │       └── C#: {countc} votes
          <br/>
-         <AnotherUserParticipation submit= 'Start'/>
+         
+         <AnotherUserParticipation  submit= 'Start' /> 
          </p>
         
        
