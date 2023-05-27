@@ -1,4 +1,5 @@
 import React from 'react'
+import AnotherUserParticipation from './AnotherUserParticipation'
 
 function UserParticipation() {
   return (
@@ -27,6 +28,8 @@ function UserParticipation() {
             <input type="radio" name="myRadio" value="option3" />
           </label>
         </p>
+
+        <AnotherUserParticipation submit = 'Submit' />
     </>
   )
 }

@@ -1,5 +1,6 @@
 import React,{ useState } from "react"
 import UserParticipation from "./UserParticipation"
+import AnotherUserParticipation from "./AnotherUserParticipation"
 
 function PollDisplay(props) {
     const [countjs, setCountjs] = useState(0)
@@ -23,9 +24,10 @@ function PollDisplay(props) {
          <br/>
          │       └── C#: {countc} votes
          <br/>
-
+         <AnotherUserParticipation submit= 'Start'/>
          </p>
         
+       
     </div>
   )
 }
